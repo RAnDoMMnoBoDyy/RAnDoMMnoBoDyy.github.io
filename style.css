@@ -1,0 +1,105 @@
+.image {
+    position: relative;
+  }
+  
+  /* Define the style for the header */
+  .header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(25, 133, 106);
+    text-shadow: 2px 2px rgb(208, 188, 188);
+  }
+
+  h1{
+    color:Black;
+    font-family: 'Lucida Sans';
+ }
+ h2{
+   color:rgb(148, 209, 143);
+   font-family: 'Trebuchet MS';
+ }
+
+ img{
+     width:500px;
+     height:300px;
+border-radius: 5%;
+ }
+
+ body{
+     color: rgb(68, 169, 48);
+     background-image: url("https://cdn.wallpapersafari.com/98/60/qWbhIk.png");
+background-size: cover;
+     text-align: center;
+     font-family: 'Courier New', Courier, monospace
+     
+ }
+  /*styling for the whole navigation bar */
+  /* Navigation bar styles */
+  nav {
+    background-color: #006400;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+  }
+
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav li {
+    margin: 0 10px;
+  }
+
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  nav a:hover {
+    background-color: #fff;
+    color: #006400;
+    transition: all 0.3s ease;
+  }
+  nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+  }
+  nav {
+    background-color: darkgreen;
+    color: #fff;
+  }
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: darkgreen;
+    color: #fff;
+  }
+  body {
+    font-family: 'Trebuchet MS'; /* Change the font family */
+    color: #6d8b68; /* Change the text color */
+  }
+  
+  h1 {
+    font-size: 32px; /* Change the font size */
+    color: rgb(69, 96, 62); /* Change the text color */
+  }
+  
+  p {
+    font-size: 18px; /* Change the font size */
+    color: rgb(63, 107, 63); /* Change the text color */
+  }
